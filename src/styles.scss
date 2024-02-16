@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rtl-direction {
+    direction: rtl;
+}
+
+.translated-rtl {
+    direction: rtl;
+}
+
+// .goog-te-banner-frame.skiptranslate {
+//     display: none !important;
+// }
+// .goog-logo-link {
+//     display: none !important;
+// }
+
+#google_translate_element a {
+    display: none;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-gadget select {
+    color: #6b6868 !important;
+}
+
+// .skiptranslate img {
+//     visibility: hidden;
+// }
+
+// .skiptranslate div {
+//     background: transparent !important;
+//     border: 0px !important;
+// }
+
+// .visibility-hidden {
+//     visibility: hidden;
+// }
+
+// .goog-tooltip {
+//     display: none !important;
+// }
+// .goog-tooltip:hover {
+//     display: none !important;
+// }
+// .goog-text-highlight {
+//     background-color: transparent !important;
+//     border: none !important;
+//     box-shadow: none !important;
+// }
+
+.translated-rtl body {
+    top: 0 !important;
+}
+.translated-ltr body {
+    top: 0 !important;
+}
+
+// .after-run.translated-rtl .site-menubar-unfold .page,
+// .after-run.translated-rtl .site-menubar-unfold .site-footer {
+//     margin-left: 0px;
+//     margin-right: 220px;
+// }
+
+// .after-run.translated-rtl .site-menubar-fold .page,
+// .after-run.translated-rtl .site-menubar-fold .site-footer {
+//     margin-left: 0px;
+//     margin-right: 90px;
+// }
+
+// .translated-rtl .site-menubar {
+//     border-right: 0px;
+//     border-left: 1px solid #ccc;
+// }
+
+// .translated-rtl .site-navbar {
+//     display: flex;
+// }
+
+// .translated-rtl .navbar-container.container-fluid {
+//     margin-left: 0;
+// }
+
+// .translated-rtl .collapse.navbar-collapse {
+//     display: flex !important;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+
+// .translated-rtl .navbar-container.container-fluid {
+//     width: 100%;
+// }
+
+// .translated-rtl .nav.navbar-toolbar.navbar-right.navbar-toolbar-right {
+//     display: flex;
+//     margin-right: auto;
+// }
+
+// .translated-rtl .nav.navbar-toolbar {
+//     display: flex;
+//     padding-right: 0;
+// }
+
+//     .translated-rtl.after-run .site-menubar-fold .site-navbar .navbar-container {
+//         margin-left: 0px;
+//     }
+//     .translated-rtl .navbar-right .dropdown-menu {
+//         right: auto;
+//         left: 0;
+//     }
+
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    visibility: hidden !important;
+}
+
+.goog-te-gadget {
+    display: flex !important;
+    justify-content: end !important;
+}
+.goog-te-gadget .goog-te-combo{
+    padding: 6px !important;
+    width: 200px !important;
+}
