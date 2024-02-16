@@ -1,10 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-.rtl-direction {
-    direction: rtl;
-}
+// .rtl-direction {
+//     direction: rtl;
+// }
 
 .translated-rtl {
     direction: rtl;
@@ -27,6 +27,8 @@
 
 .goog-te-gadget select {
     color: #6b6868 !important;
+    background-color: #EEEEEE,!important;
+
 }
 
 // .skiptranslate img {
@@ -124,6 +126,27 @@
     justify-content: end !important;
 }
 .goog-te-gadget .goog-te-combo{
-    padding: 6px !important;
+    padding: 8px !important;
     width: 200px !important;
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+}
+.goog-tooltip {
+    display: none !important;
+}
+.goog-tooltip:hover {
+    display: none !important;
+}
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+#goog-gt-tt, .goog-te-balloon-frame{display: none !important;} 
+.goog-text-highlight { background: none !important; box-shadow: none !important; background-color: none !important; }
+
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q {
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
